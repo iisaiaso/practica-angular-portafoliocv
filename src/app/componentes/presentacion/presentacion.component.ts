@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./presentacion.component.css']
 })
 export class PresentacionComponent {
-
+titulo = "ISAIAS IBARRA ONOFRE"
+descripcion = "Bienvenido a mi portafolio, soy Ingeniero de Sistemas"
 }
