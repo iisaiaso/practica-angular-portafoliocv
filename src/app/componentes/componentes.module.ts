@@ -7,6 +7,7 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { SkillComponent } from './skill/skill.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -21,7 +22,9 @@ import { SkillComponent } from './skill/skill.component';
     SkillComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   exports:[
     HeaderComponent,
