@@ -1,11 +1,76 @@
-<section id="skill" class="h-96">
-    <div class="grid grid-cols-2 y-8 lg:py-8 px-4 mx-auto max-w-screen-xl">
-        <div class="bg-blue-400">
-            <img src="" alt="foto de presentacion">
+<section id="skill" class="h-full">
+  <div class="lg:py-8 px-4 mx-auto max-w-screen-xl">
+    <div class="w-4/5 mx-auto h-full">
+      <div>
+        <h1 class="text-6xl font-bold mb-3 font-mono mt-5 pt-10 text-center">SKILL</h1>
+      </div>
+      <div class="grid grid-cols-3 mb-10">
+        <div class="h-full">
+          <div class="h-96 text-center mt-10">
+            <div class="mb-3">
+              <h1 class="text-4xl font-bold font-mono">HTML</h1>
+            </div>
+             <div class="flex justify-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" 
+              width="150"
+              alt="imge">
+             </div>
+             <div class="mt-3">
+              <button type="button" (click)="ready()" style="color: blue;" class="font-mono">Ver mas</button> 
+             </div>
+            <app-descripcion 
+            [descripcion]="descPadre"
+            (cambioDesc)="descPadre = $event"
+            [boton]="botonp"
+            (cambioBoton)="botonp = $event">
+            </app-descripcion>
+          </div>
         </div>
-        <div class="bg-slate-400 h-80">
-            <h1 class="text-6xl font-bold">pepe</h1>
-            <p>porras</p>
+        <div>
+          <div class="h-96 text-center mt-10">
+            <div class="mb-3">
+              <h1 class="text-4xl font-bold font-mono">HTML</h1>
+            </div>
+             <div class="flex justify-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" 
+              width="150"
+              alt="imge">
+             </div>
+             <div class="mt-3">
+              <button (click)="ready()" style="color: blue;" class="font-mono">Ver mas</button> 
+             </div>
+             <app-descripcion 
+            [descripcion]="descPadre"
+            (cambioDesc)="descPadre = $event"
+            [boton]="botonp"
+            (cambioBoton)="botonp = $event">
+            </app-descripcion>
+          </div>
         </div>
+        <div>
+          <div class="h-96 text-center mt-10">
+            <div class="mb-3">
+              <h1 class="text-4xl font-bold font-mono">HTML</h1>
+            </div>
+             <div class="flex justify-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" 
+              width="150"
+              alt="imge">
+             </div>
+             <div class="mt-3">
+              <button  (click)="ready()" style="color: blue;" class="font-mono">Ver mas</button> 
+             </div>
+             <app-descripcion 
+             [descripcion]="descPadre"
+             (cambioDesc)="descPadre = $event"
+             [boton]="botonp"
+             (cambioBoton)="botonp = $event">
+             </app-descripcion>
+          </div>
+        </div>
+      </div>
     </div>
+    <hr />
+  </div>
 </section>
+

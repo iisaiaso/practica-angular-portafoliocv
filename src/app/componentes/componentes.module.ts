@@ -8,6 +8,7 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { SkillComponent } from './skill/skill.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DescripcionComponent } from './descripcion/descripcion.component';
 
 
 
@@ -19,7 +20,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SobreMiComponent,
     ExperienciaComponent,
     ContactoComponent,
-    SkillComponent
+    SkillComponent,
+    DescripcionComponent
   ],
   imports: [
     CommonModule,
@@ -33,7 +35,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SobreMiComponent,
     ExperienciaComponent,
     ContactoComponent,
-    SkillComponent
+    SkillComponent,
+    DescripcionComponent
   ]
 })
 export class ComponentesModule { }
